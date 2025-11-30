@@ -10,12 +10,7 @@ export interface Project {
   demoLabel?: string; // Optional text for the demo link
 }
 
-// ============================================
-// ADD YOUR PROJECTS HERE
-// Simply add a new object to this array to add a project
-// Remove an object to remove a project
-// Projects will automatically arrange in a 2-column grid
-// ============================================
+
 
 export const projects: Project[] = [
   {
@@ -78,20 +73,18 @@ export const projects: Project[] = [
     tags: ['C/C++', 'Assembly', 'ARM Cortex-M'],
     githubUrl: 'https://github.com/Hav1115/Code-for-Traffic-Signal',
   },
-  // ============================================
-  // ADD MORE PROJECTS BELOW
-  // Copy the template and fill in your details:
-  // ============================================
-  // {
-  //   id: 'project-3',
-  //   title: 'Your Project Title',
-  //   subtitle: 'CLICK HERE TO VISIT',
-  //   description: 'Your project description goes here...',
-  //   image: '/images/projects/project-3.jpg',
-  //   tags: ['Tag1', 'Tag2', 'Tag3'],
-  //   githubUrl: 'https://github.com/yourusername/your-repo',
-  //   liveUrl: 'https://your-live-url.com',
-  // },
+  {
+    id: 'project-7',
+    title: 'PawBuddy',
+    subtitle: 'CLICK HERE TO VISIT',
+    description: 'Designed a smart pet-adoption app that helps users find the perfect pet match using dynamic filters, a modern full-stack architecture, and an AI-supported recommendation workflow.',
+    image: '/images/petb.png', // Replace with your image
+    tags: ['Node.js', 'React', 'Express'],
+    githubUrl: 'https://github.com/Hav1115/Pawbuddybackend',
+    liveUrl: 'https://youtu.be/OB-IyFoC3BE',
+    demoLabel: 'Demo Vid',
+  },
+
 ];
 
 export const experiences = [
