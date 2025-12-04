@@ -47,6 +47,26 @@ export const projects: Project[] = [
     demoLabel: 'Demo Vid',
   },
   {
+    id: 'project-7',
+    title: 'PawBuddy',
+    subtitle: 'CLICK HERE TO VISIT',
+    description: 'Designed a smart pet-adoption app that helps users find the perfect pet match using dynamic filters, a modern full-stack architecture, and an AI-supported recommendation workflow.',
+    image: '/images/petb.png', // Replace with your image
+    tags: ['Node.js', 'React', 'Express'],
+    githubUrl: 'https://github.com/Hav1115/Pawbuddybackend',
+    liveUrl: 'https://youtu.be/OB-IyFoC3BE',
+    demoLabel: 'Demo Vid',
+  },
+  {
+    id: 'project-8',
+    title: 'LongHorn Network',
+    subtitle: 'CLICK HERE TO VISIT',
+    description: 'A multithreaded Java simulation that uses Gale–Shapley and Dijkstra’s algorithms to match students and compute optimal referral paths on a dynamically built weighted social graph.',
+    image: '/images/petb.png', // Replace with your image
+    tags: ['Java', 'Graphs', 'Multithreading'],
+    githubUrl: 'https://github.com/Hav1115/LonghornNetwork',
+  },
+  {
     id: 'project-4',
     title: 'Space Invaders Game',
     subtitle: 'CLICK HERE TO VISIT',
@@ -73,17 +93,7 @@ export const projects: Project[] = [
     tags: ['C/C++', 'Assembly', 'ARM Cortex-M'],
     githubUrl: 'https://github.com/Hav1115/Code-for-Traffic-Signal',
   },
-  {
-    id: 'project-7',
-    title: 'PawBuddy',
-    subtitle: 'CLICK HERE TO VISIT',
-    description: 'Designed a smart pet-adoption app that helps users find the perfect pet match using dynamic filters, a modern full-stack architecture, and an AI-supported recommendation workflow.',
-    image: '/images/petb.png', // Replace with your image
-    tags: ['Node.js', 'React', 'Express'],
-    githubUrl: 'https://github.com/Hav1115/Pawbuddybackend',
-    liveUrl: 'https://youtu.be/OB-IyFoC3BE',
-    demoLabel: 'Demo Vid',
-  },
+  
 
 ];
 
