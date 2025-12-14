@@ -65,6 +65,8 @@ export const projects: Project[] = [
     image: '/images/LongHorn.png', // Replace with your image
     tags: ['Java', 'Graphs', 'Multithreading'],
     githubUrl: 'https://github.com/Hav1115/LonghornNetwork',
+    liveUrl: '  https://youtu.be/dkvSyioQJdM',
+    demoLabel: 'Demo Vid',
   },
   {
     id: 'project-4',
