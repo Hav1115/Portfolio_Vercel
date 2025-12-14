@@ -64,7 +64,7 @@ export const projects: Project[] = [
     description: 'A multithreaded Java simulation that uses Gale–Shapley and Dijkstra’s algorithms to match students and compute optimal referral paths on a dynamically built weighted social graph.',
     image: '/images/LongHorn.png', // Replace with your image
     tags: ['Java', 'Graphs', 'Multithreading'],
-    githubUrl: 'https://github.com/Hav1115/LonghornNetwork',
+    githubUrl: 'https://github.com/Hav1115/Connection-Network',
     liveUrl: '  https://youtu.be/dkvSyioQJdM',
     demoLabel: 'Demo Vid',
   },
