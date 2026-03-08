@@ -22,7 +22,7 @@ export const projects: Project[] = [
     tags: ['Electron', 'React', 'FastAPI', 'PostgreSQL', 'Supabase', 'Claude 3.5 Sonnet', 'Vercel'],
     githubUrl: '',
     liveUrl: 'https://athena-production-9c6e.up.railway.app/',
-    demoLabel: 'Demo Vid',
+    demoLabel: 'Download Link',
   },
   {
     id: 'project-1',
