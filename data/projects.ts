@@ -14,6 +14,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'project-7',
+    title: 'Athena',
+    subtitle: 'CLICK HERE TO VISIT',
+    description: 'AI-powered app builder that takes a natural language description and generates a full-stack React/Next.js and FastAPI application, deployable in one click.',
+    image: '/images/Athena.png', // Replace with your image
+    tags: ['Electron', 'React', 'FastAPI', 'PostgreSQL', 'Supabase', 'Claude 3.5 Sonnet', 'Vercel'],
+    githubUrl: '',
+    liveUrl: 'https://athena-production-9c6e.up.railway.app/',
+    demoLabel: 'Demo Vid',
+  },
+  {
     id: 'project-1',
     title: 'MasterMind Game',
     subtitle: 'CLICK HERE TO VISIT',
@@ -145,6 +156,6 @@ export const techStack = [
 export const socialLinks = {
   linkedin: 'https://linkedin.com/in/havish-komatreddy',
   github: 'https://github.com/Hav1115',
-  email: 'hk27356@utexas.edu',
+  email: 'havish054@gmail.com',
 };
 
